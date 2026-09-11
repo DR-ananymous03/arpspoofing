@@ -1,8 +1,14 @@
+[build-system]
+requires = ["setuptools>=61.0.0"]
+build-backend = "setuptools.build_meta"
+
 [project]
-name = "pythonproject"
-version = "0.1.0"
-requires-python = ">=3.14"
+name = "arpspoofing"
+version = "1.0.0"
 dependencies = [
-    "scapy>=2.7.0",
-    "spoof>=2.4.2",
+    "scapy",
+    "rich",
 ]
+
+[project.scripts]
+arpspoofing = "main:main"
