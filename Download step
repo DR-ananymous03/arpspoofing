@@ -1,0 +1,10 @@
+# ARP Spoofing Tool 🛡️
+
+A Python-based command-line tool for network analysis and ARP spoofing, built with Scapy and Rich UI.
+
+## Installation ⚙️
+
+You can easily install this tool globally using `pipx`:
+
+```bash
+pipx install git+[https://github.com/DR-ananymous03/arpspoofing.git](https://github.com/DR-ananymous03/arpspoofing.git) --force
